@@ -1,0 +1,124 @@
+body{
+    background: rgb(240, 250, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+        text-align: center;
+     
+}
+
+header{
+       flex: 1;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+background-color: #008000;
+box-shadow: 0px 4px 12px rgb(160, 159, 159);
+align-items: center;
+}
+
+nav img{
+    width: auto;
+    height: 55px;
+    margin: 10px;
+    margin-left: 20px;
+}
+nav ul{
+    margin: 0;
+    display: flex;
+}
+
+nav ul li{
+    display: flex;
+   list-style: none;
+   margin-right: 10px;
+    
+}
+
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0px 20px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 238, 0);
+    transform: translateY(-2px);
+}
+
+nav button{
+padding: 16px 22px;
+  margin: 6px;
+  background-color: gold;
+  border-radius: 12px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+    
+}
+
+nav button:hover {
+  background-color: #1e1f1f;
+  color: white;
+
+}
+
+
+/*Main Part Start*/ 
+.logo img{
+    margin-top: 10px;
+    width: 170px;
+    height: 170px;
+    border: 6px solid rgb(95, 211, 1);
+    border-radius: 100px;
+ 
+}
+.info{
+width: 300px;
+background-color: rgb(255, 255, 255);
+border-radius: 16px;
+margin: auto;
+transition: 0.2s;
+}
+
+.info h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.info p{
+    font-size: 15px;
+}
+
+.welcome{
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    border: 3px solid rgb(255, 102, 0);
+    transition: 0.2s;
+}
+
+.info:hover, 
+.welcome:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 12px 24px rgba(189, 255, 127, 0.658);
+  cursor: pointer;
+}
+
+.ft{
+    padding: 16px;
+    background-color: antiquewhite;
+    color: #1e1f1f;
+    margin-top: 90px;
+    font-weight: bold;
+}
