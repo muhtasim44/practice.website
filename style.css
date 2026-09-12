@@ -5,12 +5,13 @@ body{
     background-size: cover;
     min-height: 100vh;
     margin: 0;
-        text-align: center;
-     
-}
 
+    display: flex;
+    flex-direction: column;
+}
 header{
        flex: 1;
+               text-align: center;
 }
 
 nav{
@@ -119,6 +120,7 @@ transition: 0.2s;
     padding: 16px;
     background-color: antiquewhite;
     color: #1e1f1f;
-    margin-top: 90px;
     font-weight: bold;
+    margin-top: 90px;
+    text-align: center;
 }
